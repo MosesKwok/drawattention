@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Amatic SC;
+    src: url(../font/Amatic-SC-Bold.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: SetoFont;
+    src: url(../font/setofont.ttf)format("truetype");
+}
+
+
+body {
+    background-color:#FEFFEA;
+
+}
+
+nav{
+    background-color: #586B8F;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1{
+    font-family: Amatic SC, SetoFont;
+    font-size: 50pt;
+    color:#586B8F;
+    text-shadow:#586B8F 0px 1px 4px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: SetoFont;
+    font-size: pt;
+    color:#586B8F;
+    text-shadow: #586B8F 0px 1px 3px;
+    font-weight: bold;
+}
+
+.po{
+    margin: 30pt;
+}

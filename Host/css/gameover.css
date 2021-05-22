@@ -1,0 +1,35 @@
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../font/GOTHIC.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: OCR;
+    src: url(../font/OCR-A.ttf)format("truetype");
+}
+
+nav{
+    background-color: #586B8F;
+}
+
+.container.custom-container-width {
+    max-width: 100%;      
+}
+
+.textbox{
+    background-color: rgba(166,209,216,0.5);
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 70px;
+    font-family: OCR;
+    color: #586B8F;
+}
+
+.text2{
+    font-family:CenturyGothic;
+    font-size:30px;
+    color: #586B8F;
+}

@@ -1,0 +1,28 @@
+* {
+    cursor: none;
+}
+
+
+.container.custom-container-width {
+    max-width: 100%;      
+}
+
+body {
+      background-color: rgb(255, 253, 242);
+
+}
+    
+.loading {
+    background-color: #FFF;
+    display: fixed;
+    position: relative;
+    
+}
+
+.loading img {
+    display: block;
+    text-align: center;
+    min-height: 209px;
+    min-width: 200px;
+}
+

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Amatic SC;
+    src: url(../font/Amatic-SC-Bold.ttf)format("truetype");
+}
+@font-face {
+    font-family: SetoFont;
+    src: url(../font/setofont.ttf)format("truetype");
+}
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../font/GOTHIC.ttf)format("truetype");
+}
+
+nav{
+    background: #586B8F;
+}
+
+body {
+    font-family:Amatic SC,CenutryGothic,SetoFont;
+    font-style: bold;
+    /*font-style: normal;*/
+    font-size: 20px;
+    color:#333;
+    background-color:#FEFFEA;
+    border-radius: 0%;
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#header {
+    float: left;
+    height: 180;
+    background: #586B8F;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+}
+
+h1{
+    font-family: Amatic SC,SetoFont;
+    /*font-size: 60px;*/
+    color: #586B8F;
+    text-shadow: #707070 0px 1px 3px;
+}

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Amatic;
+    src: url(../font/Amatic-SC-Bold.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: SetoFont;
+    src: url(../font/setofont.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../font/GOTHIC.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: BungeeHairline;
+    src: url(../font/BungeeHairline-Regular.ttf)format("truetype");
+}
+
+
+@font-face {
+    font-family: SegoeUI;
+    src: url(../font/Segoe-UI.ttf)format("truetype");
+}
+
+body {
+    background-color:#FEFFEA;
+}
+
+nav{
+    background-color: #586B8F;
+}
+
+h1{
+    font-family: Amatic,SetoFont;
+    font-size: 60px;
+    color: #586B8F;
+    text-shadow: #707070 0px 1px 3px;
+}
+
+.inputtextfield{
+    font-size: 15px;
+    font-style: bold;
+    padding: 10px ;
+    font-family: CenturyGothic;
+    color: #707070;
+}
+
+.submitbutton{
+    background-color:#ADDCE4;
+    padding: 12px 75px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: #586B8F;
+}
+
+.submitbutton:hover{
+    background-color:#ADDCE4;
+}
+
+.forgetpassword, a:link{
+    font-family: CenturyGothic;
+    font-style:italic;
+    color:#707070;
+    opacity: 80%;    
+}
+
+#result{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.line{
+    font-size: 25px;
+    font-family: BungeeHairline;
+}
+
+.speciallogin{
+    background-color:#FFED78;
+    width: 568px;
+    height: 80px;
+    border-width: 5px 120px;
+    margin: 12px;
+    border: none;
+    padding :10px;
+    font-family:Amatic,SetoFont;
+    font-style: bold normal;
+    font-size: 40px;
+    color: #586B8F;
+    text-shadow: #707070 0px 1px 3px;
+}
+
+.speciallogin img{
+    width: 55px;
+    height: 55px;
+    padding :10px;
+}

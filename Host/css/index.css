@@ -1,0 +1,203 @@
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../font/GOTHIC.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: Megrim;
+    src: url(../font/Megrim.ttf)format("truetype");
+}
+
+
+@font-face {
+    font-family: SeogeUI;
+    src: url(../font/Segoe-UI.ttf)format("truetype");
+}
+
+
+@font-face {
+    font-family: OCR;
+    src: url(../font/OCR-A.ttf)format("truetype");
+}
+
+
+
+body{
+    background-color:#FEFFEA;
+}
+
+nav{
+    background-color: #586B8F;
+}
+
+.navword{
+    text-decoration: none;
+    font-family: Megrim;
+    font-size: 22px;
+    color:white;
+}
+
+.container.custom-container-width {
+    max-width: 100%;      
+}
+
+.dropdown{
+    top: 15px;
+}
+
+.dropdown-menu{
+    top: auto;
+}
+
+.dropdownword{
+    font-family: CenturyGothic;;
+}
+
+.userinfo{
+    background-color:#586B8F;
+    height: 560px;
+    border-radius: 10px;
+}
+
+.userinfo a{
+    text-decoration: none;
+    color: white;
+}
+
+.infobox{
+    background-color:#677aa0;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    color: white;
+    font-family: CenturyGothic;
+}
+
+.recordresult{
+    width: 100%;
+    font-family: SeogeUI;
+    font-size: 45px;
+    color: #FFED78;
+}
+
+.list{
+    background-color:#FFED78;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.list .word1{
+    font-size: 24px;
+    font-family: CenturyGothic;
+    font-weight: bolder;
+    color:#707070;
+}
+
+.step{
+    text-align: center;
+    font-size: 15px;
+    font-family: OCR;
+    color:#586B8F;
+}
+.junior{
+    text-align: center;
+}
+
+
+.list_1{
+    background-color:#ADDCE4;
+    height: 255px;
+    border-radius: 10px;
+}
+
+.list_1 .word1{
+    font-size: 24px;
+    font-family: CenturyGothic;
+    font-weight: bolder;
+    color:#707070;
+}
+
+.list_1 .word2{
+    font-size: 24px;
+    font-family: Megrim;
+    color:#707070;
+}
+
+.list_1 .word3{
+    font-size: 15px;
+    font-family: CenturyGothic;
+    color:#707070;
+}
+
+.list_1 hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.list_1 .gamelist{
+    text-align: left;
+    font-size: 0.75rem;
+    font-family: SeogeUI;
+    color:#707070;
+    border-top: 0px;
+}
+
+.table-hover .no-hover:hover {
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.pic{
+    float: left;
+}
+
+.playbutton{
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-family: OCR;
+}
+
+.title{
+    font-family: OCR;
+    font-size:25px;
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list2{
+    background-color:#4ABBC5;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.list2 .word1{
+    font-size: 24px;
+    font-family: CenturyGothic;
+    font-weight: bolder;
+    color:#707070;
+}
+
+.list2 .word2{
+    font-size: 15px;
+    font-family: CenturyGothic;
+    color:#707070;
+}
+
+.list2 .lasterreport{
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: SeogeUI;
+    color:#707070;
+}
+
+.block{
+    background-color: #FEFFEA;
+    height: 40px;
+}

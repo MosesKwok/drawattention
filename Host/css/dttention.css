@@ -1,0 +1,97 @@
+@font-face {
+    font-family: GOTHIC;
+    src: url(../font/GOTHIC.ttf)format("truetype");
+}  
+
+@font-face {
+    font-family: Megrim;
+    src: url(../font/Megrim.ttf)format("truetype");
+}
+
+body{
+    background-color:#FEFFEA;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    background-color: #586B8F;
+}
+
+.navword{
+    text-decoration: none;
+    font-family: Megrim;
+    font-size: 22px;
+    color:white;
+}
+
+.container.custom-container-width {
+    max-width: 100%;      
+}
+
+.text{
+    font-family: Megrim;
+    color:#586B8F;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.inputtextfield{
+    width:45%;
+    font-size: 25px;
+    font-family: Gothic;
+    color: #707070;
+}
+
+.text2{
+    font-family: Gothic;
+    font-size: 20px;
+}
+
+.custom-select{
+    border:none;
+    background-color: #FEFFEA;
+    width:30%;
+}
+
+.text3{
+    font-family: Gothic;
+    font-size: 20px;
+    color:#586B8F ;
+}
+
+.hyperlink{
+    color:#707070;
+    font-size:12px;
+}
+
+.emptydiv{
+    width: 90%;
+    min-height: 200px;
+    border: 2px grey dashed;
+    margin-left:55px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablediv{
+    width: 90%;
+    min-height: 200px;
+    margin-left:55px;
+    margin-top: 30px;
+}
+
+.addnew{
+    border:none;
+    background-color: #FEFFEA;
+}
+
+.playbutton
+{
+    color:brown;
+    background-color: #fff;
+     border-color: brown;
+
+}

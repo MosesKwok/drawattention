@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Amatic;
+    src: url(../font/Amatic-SC-Bold.ttf)format("truetype");
+}
+
+
+body {
+    background-color:#FEFFEA;
+}
+
+
+.navbar{
+    background-color: #FFED78;
+}
+.text{
+    padding-top:10px;
+    font-size: 45px;
+    font-family: Amatic;
+}
+.container.custom-container-width {
+    max-width: 100%;      
+}
+
+#wrapper {
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background-color: #63A6B1;	
+}
+.move{
+    text-align: center;
+    padding-top:50px;
+}
+.soon{
+    margin-top:20px;
+    float: right;
+}

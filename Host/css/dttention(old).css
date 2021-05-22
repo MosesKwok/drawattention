@@ -1,0 +1,80 @@
+@font-face {
+    font-family:Amatic;
+    src: url(../font/Amatic-SC-Bold.ttf)format("truetype");;
+    }
+@font-face {
+    font-family:OCR-A;
+    src: url(../font/OCR-A.ttf)format("truetype");;
+    }
+body{
+    background-color: #586B8F;
+}
+
+.center{
+    text-align: center;
+    margin-top:20px;
+}
+.title{
+    text-align: center;
+    margin-top:20px;
+}
+
+.text{
+    text-align: center;
+    font-size: 60px;
+    width: 50%;
+    border-style:none;
+}
+input::placeholder{
+    color:black;
+    font-size: 50px;
+    font-family:Amatic;
+}
+
+input, textarea, select{font-family:Amatic;}
+
+.area{
+    margin-top: 20px;
+    width:25%;
+    float: left;
+    height: 50vh;
+}
+.area2{
+    margin:0px auto;
+    margin-top:40px;
+    text-align: center;
+    width:65%;
+    height: 75%;
+    background-color:rgba(103,122,160,0.8);
+}
+.Singal{
+    font-family:OCR-A;
+    font-size: 30px;
+    color: white;
+}
+
+.button{
+    font-family:Amatic;
+    width:60%;
+    height:75px;
+    background-color:white;
+    border-radius: 15px; 
+    border: none;
+    color: #ADDCE4;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 30px;
+} 
+
+.teammode{
+    font-family:Amatic;
+    width:60%;
+    height:75px;
+    background-color:#ADDCE4;
+    border-radius: 15px; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 30px;
+} 
